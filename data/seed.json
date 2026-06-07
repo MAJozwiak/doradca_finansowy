@@ -1,0 +1,58 @@
+{
+  "clients": [
+    {"name": "Marek Kowalski",      "email": "m.kowalski@gmail.com",     "phone": "+48 601 234 567"},
+    {"name": "Anna Wiśniewska",     "email": "a.wisniewska@wp.pl",       "phone": "+48 602 345 678"},
+    {"name": "Piotr Zając",         "email": "p.zajac@onet.pl",          "phone": "+48 603 456 789"},
+    {"name": "Katarzyna Nowak",     "email": "k.nowak@interia.pl",       "phone": "+48 604 567 890"},
+    {"name": "Tomasz Wójcik",       "email": "t.wojcik@gmail.com",       "phone": "+48 605 678 901"},
+    {"name": "Magdalena Kamińska",  "email": "m.kaminska@wp.pl",         "phone": "+48 606 789 012"},
+    {"name": "Grzegorz Lewandowski","email": "g.lewandowski@onet.pl",    "phone": "+48 607 890 123"},
+    {"name": "Joanna Dąbrowska",    "email": "j.dabrowska@gmail.com",    "phone": "+48 608 901 234"},
+    {"name": "Rafał Szymański",     "email": "r.szymanski@interia.pl",   "phone": "+48 609 012 345"},
+    {"name": "Monika Woźniak",      "email": "m.wozniak@wp.pl",          "phone": "+48 610 123 456"},
+    {"name": "Krzysztof Piotrowiak","email": "k.piotrowiak@gmail.com",   "phone": "+48 611 234 567"},
+    {"name": "Aleksandra Michalska","email": "a.michalska@onet.pl",      "phone": "+48 612 345 678"},
+    {"name": "Damian Grabowski",    "email": "d.grabowski@wp.pl",        "phone": "+48 613 456 789"},
+    {"name": "Sylwia Pawlak",       "email": "s.pawlak@gmail.com",       "phone": "+48 614 567 890"},
+    {"name": "Bartosz Krawczyk",    "email": "b.krawczyk@interia.pl",    "phone": "+48 615 678 901"}
+  ],
+  "positions": [
+    {"client_index": 0, "ticker": "AAPL",   "quantity": 50,  "currency": "USD", "purchase_price": 165.20, "purchase_date": "2023-06-10", "status": "open"},
+    {"client_index": 0, "ticker": "MSFT",   "quantity": 20,  "currency": "USD", "purchase_price": 310.50, "purchase_date": "2023-08-15", "status": "open"},
+    {"client_index": 0, "ticker": "CDR.WA", "quantity": 100, "currency": "PLN", "purchase_price": 142.00, "purchase_date": "2023-11-20", "status": "open"},
+    {"client_index": 0, "ticker": "AAPL",   "quantity": 10,  "currency": "USD", "purchase_price": 148.00, "purchase_date": "2023-01-05", "status": "closed", "sell_price": 175.00, "sell_date": "2023-05-20"},
+
+    {"client_index": 1, "ticker": "NVDA",   "quantity": 15,  "currency": "USD", "purchase_price": 420.00, "purchase_date": "2024-01-10", "status": "open"},
+    {"client_index": 1, "ticker": "PKN.WA", "quantity": 200, "currency": "PLN", "purchase_price": 58.30,  "purchase_date": "2023-09-01", "status": "open"},
+    {"client_index": 1, "ticker": "TSLA",   "quantity": 8,   "currency": "USD", "purchase_price": 260.00, "purchase_date": "2023-07-14", "status": "closed", "sell_price": 215.00, "sell_date": "2023-12-01"},
+
+    {"client_index": 2, "ticker": "AMZN",   "quantity": 12,  "currency": "USD", "purchase_price": 178.00, "purchase_date": "2024-02-20", "status": "open"},
+    {"client_index": 2, "ticker": "ALLEGRO.WA","quantity": 500,"currency": "PLN","purchase_price": 28.50, "purchase_date": "2023-10-10", "status": "open"},
+    {"client_index": 2, "ticker": "MSFT",   "quantity": 5,   "currency": "USD", "purchase_price": 290.00, "purchase_date": "2023-03-15", "status": "closed", "sell_price": 340.00, "sell_date": "2024-01-10"},
+
+    {"client_index": 3, "ticker": "GOOGL",  "quantity": 10,  "currency": "USD", "purchase_price": 138.00, "purchase_date": "2023-12-05", "status": "open"},
+    {"client_index": 3, "ticker": "LPP.WA", "quantity": 5,   "currency": "PLN", "purchase_price": 14200.00,"purchase_date": "2024-01-20","status": "open"},
+    {"client_index": 3, "ticker": "DINO.WA","quantity": 30,  "currency": "PLN", "purchase_price": 340.00, "purchase_date": "2023-05-10", "status": "closed", "sell_price": 390.00, "sell_date": "2023-11-30"},
+
+    {"client_index": 4, "ticker": "META",   "quantity": 25,  "currency": "USD", "purchase_price": 295.00, "purchase_date": "2023-11-01", "status": "open"},
+    {"client_index": 4, "ticker": "PEKAO.WA","quantity": 150,"currency": "PLN", "purchase_price": 115.00, "purchase_date": "2024-03-05", "status": "open"},
+    {"client_index": 4, "ticker": "NVDA",   "quantity": 5,   "currency": "USD", "purchase_price": 380.00, "purchase_date": "2023-08-01", "status": "closed", "sell_price": 480.00, "sell_date": "2024-02-15"},
+
+    {"client_index": 5, "ticker": "CDR.WA", "quantity": 80,  "currency": "PLN", "purchase_price": 155.00, "purchase_date": "2024-01-15", "status": "open"},
+    {"client_index": 5, "ticker": "AAPL",   "quantity": 30,  "currency": "USD", "purchase_price": 182.00, "purchase_date": "2024-02-28", "status": "open"},
+
+    {"client_index": 6, "ticker": "TSLA",   "quantity": 20,  "currency": "USD", "purchase_price": 180.00, "purchase_date": "2024-03-10", "status": "open"},
+    {"client_index": 6, "ticker": "KGH.WA", "quantity": 60,  "currency": "PLN", "purchase_price": 128.00, "purchase_date": "2023-07-20", "status": "open"},
+    {"client_index": 6, "ticker": "AMZN",   "quantity": 8,   "currency": "USD", "purchase_price": 155.00, "purchase_date": "2023-04-01", "status": "closed", "sell_price": 190.00, "sell_date": "2023-12-20"},
+
+    {"client_index": 7, "ticker": "MSFT",   "quantity": 15,  "currency": "USD", "purchase_price": 370.00, "purchase_date": "2024-04-01", "status": "open"},
+    {"client_index": 7, "ticker": "ALLEGRO.WA","quantity": 300,"currency": "PLN","purchase_price": 31.00, "purchase_date": "2024-02-10", "status": "open"},
+
+    {"client_index": 8, "ticker": "GOOGL",  "quantity": 20,  "currency": "USD", "purchase_price": 145.00, "purchase_date": "2024-01-05", "status": "open"},
+    {"client_index": 8, "ticker": "PKN.WA", "quantity": 100, "currency": "PLN", "purchase_price": 62.00,  "purchase_date": "2023-10-15", "status": "open"},
+
+    {"client_index": 9, "ticker": "META",   "quantity": 10,  "currency": "USD", "purchase_price": 320.00, "purchase_date": "2024-02-01", "status": "open"},
+    {"client_index": 9, "ticker": "DINO.WA","quantity": 20,  "currency": "PLN", "purchase_price": 380.00, "purchase_date": "2024-03-20", "status": "open"},
+    {"client_index": 9, "ticker": "TSLA",   "quantity": 12,  "currency": "USD", "purchase_price": 220.00, "purchase_date": "2023-06-01", "status": "closed", "sell_price": 195.00, "sell_date": "2023-10-10"}
+  ]
+}

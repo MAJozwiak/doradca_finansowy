@@ -1,0 +1,6 @@
+streamlit==1.45.1
+sqlalchemy==2.0.41
+pydantic==2.11.5
+yfinance==0.2.61
+requests==2.32.3
+pydantic[email]==2.11.5
